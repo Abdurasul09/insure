@@ -215,3 +215,41 @@ body {
     width: 70px;
     height: 70px;
 }
+
+/* WE WORK SECTION */
+#we-work{
+    margin-bottom: 10rem;
+}
+
+.we-work-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    overflow: hidden;
+    background-color: var(--dark-blue);
+    height: 290px;
+}
+
+.we-work-content img{
+    position: absolute;
+    right: 0;
+    transform: rotate(181deg);
+}
+
+.we-work-content h1 {
+    color: var(--white);
+    font-size: 56px;
+    letter-spacing: -0.78px;
+    line-height: 56px;
+}
+
+.we-work-content-btn{
+    border: 1.2px solid var(--white);
+    width: 146px;
+    height: 40px;
+    text-transform: uppercase;
+    background: none;
+    color: var(--white);
+    z-index: 1;
+}
